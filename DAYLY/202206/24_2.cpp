@@ -4,31 +4,30 @@
 #include <vector>
 #include <algorithm>
 
+#define rp(n,i) for(int i=0;i<n;i++)
+
 using namespace std;
 
 int main() {
     int N, Q; cin >> N >> Q;
     vector<int> A(N);
-
-    for(auto& a : A) {
+    for( auto&& a : A ) {
         cin >> a;
     }
 
     sort(A.begin(), A.end());
 
-    
-    for (int i = 0; i < Q; i++) {
-        int point, ok = N, ng = -1, temp; 
-        cin >> temp;
-        while ((ok - ng) > 1) {
-            point = (ok + ng) / 2;
-            if(A[point] >= temp) {
-                ok = point;
+    rp(Q,i) {
+        int x; cin >> x;
+        int ok = N, ng = -1, check;
+        while(ok - ng > 1) {
+            check = (ok + ng) / 2;
+            if(A[check] >= x) {
+                ok = check;
             } else {
-                ng = point;
+                ng = check;
             }
         }
         cout << N - ok << endl;
     }
-    return 0;
 }
