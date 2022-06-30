@@ -25,18 +25,11 @@
 "#include <set>
 "#include <map>
 "
-"
 "#define rep(i,n)      for (int i = 0; i < n; i++)
 "#define repe(i,n)     for (int i = 0; i <= n; i++)
-"
 "#define rrep(i,n)     for (int i = n; i > 0; i--)
 "#define rrepe(i,n)    for (int i = n; i >= 0; i--)
-"
 "#define vrep(X)       for (auto&& x : X)
-"
-"#define bgen(X)       begin(X), end(X)
-"
-"#define coutd(X)      cout << X << endl;
 "
 "#define vpii(X)       vector<pair<int, int>> X
 "#define vpss(X)       vector<pair<string, string>> X
@@ -47,6 +40,12 @@
 "#define vpsc(X)       vector<pair<string, char>> X
 "#define vpci(X)       vector<pair<char, int>> X
 "#define vpcs(X)       vector<pair<char, string>> X
+"#define vint(X)       vector<int> X
+"#define vchar(X)      vector<string> X
+"#define vstring(X)    vector<char> X
+"
+"#define bgen(X)       begin(X), end(X)
+"#define coutd(X)      cout << X << endl
 "
 "
 "using namespace std;
