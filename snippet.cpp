@@ -24,13 +24,10 @@
 #define vpii(X)       vector<pair<int, int>> X
 #define vpss(X)       vector<pair<string, string>> X
 #define vpcc(X)       vector<pair<char, char>> X
-
 #define vpis(X)       vector<pair<int, string>> X
 #define vpic(X)       vector<pair<int, char>> X
-
 #define vpsi(X)       vector<pair<string, int>> X
 #define vpsc(X)       vector<pair<string, char>> X
-
 #define vpci(X)       vector<pair<char, int>> X
 #define vpcs(X)       vector<pair<char, string>> X
 
@@ -43,4 +40,5 @@ int main() {
     
     
     return 0;
+    
 }
