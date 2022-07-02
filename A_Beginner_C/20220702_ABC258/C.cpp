@@ -1,12 +1,13 @@
 // ABC258 - C
 // 1st
-// SHOULD?
+// YAY!!
 
 #include <iostream>
 #include <vector>
 #include <algorithm>
 #include <set>
 #include <map>
+#include <string>
 
 #define rep(i,n)      for (int i = 0; i < n; i++)
 #define repe(i,n)     for (int i = 0; i <= n; i++)
@@ -34,7 +35,24 @@
 using namespace std;
 
 int main() {
-    
+    long long int N, Q; cin >> N >> Q;
+    string S; cin >> S;
+    long long int xi = 0;
+    while(Q--) {
+        int t, x; cin >> t >> x;
+        if(t == 1) {
+            xi += x;
+        } else {
+            
+            long long int tempwhile = (x - xi)%N -1;
+            while(tempwhile < 0) {
+                tempwhile = N + (x - xi)%N -1;
+            }
+
+            char tempc2 = S[tempwhile];
+            coutd(tempc2);
+        }
+    }
     
     
     

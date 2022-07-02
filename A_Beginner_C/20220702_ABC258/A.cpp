@@ -1,6 +1,6 @@
 // ABC258 - A
 // 1st
-// SHOULD?
+// YAY!!FAST!!
 
 #include <iostream>
 #include <vector>
@@ -34,10 +34,21 @@
 using namespace std;
 
 int main() {
-    
-    
-    
-    
+    int K; cin >> K;
+    int hour = 21;
+    while(1) {
+        if(K >= 60) {
+            K -= 60;
+            hour++;
+        } else {
+            break;
+        }
+    }
+    if(K < 10) {
+        cout << hour << ":0" << K << endl;
+    } else {
+        cout << hour << ":" << K << endl;
+    }
     return 0;
     
 }
