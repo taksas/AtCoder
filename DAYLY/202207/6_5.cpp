@@ -1,7 +1,7 @@
 // ABC072 - D
 // 21%
 // 1st
-// COPYED
+// COPYED_EASY
 
 #include <iostream>
 #include <vector>
