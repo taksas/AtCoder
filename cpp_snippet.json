@@ -44,7 +44,7 @@
 "#define rrepe(i,n)              for (int i = n; i >= 0; i--)
 "#define vrep(X)                 for (auto&& x : X)
 "
-"#define vvii(X,n1,n2)            vector<vector<int>> X(n1,vector<int>(n2))
+"#define vvii(X,n1,n2)           vector<vector<int>> X(n1,vector<int>(n2))
 "#define vvllll(X,n1,n2)         vector<vector<long long int>> X(n1,vector<long long int>(n2))
 "
 "#define vpii(X)                 vector<pair<int, int>> X
