@@ -42,6 +42,11 @@
 "#define repe(i,n)               for (int i = 0; i <= n; i++)
 "#define rrep(i,n)               for (int i = n; i > 0; i--)
 "#define rrepe(i,n)              for (int i = n; i >= 0; i--)
+"#define rep1(i,n)               for (int i = 1; i < n; i++)
+"#define rep1e(i,n)              for (int i = 1; i <= n; i++)
+"#define rrep1(i,n)              for (int i = n; i > 1; i--)
+"#define rrep1e(i,n)             for (int i = n; i >= 1; i--)
+"
 "#define vrep(X)                 for (auto&& x : X)
 "
 "#define vvii(X,n1,n2)           vector<vector<int>> X(n1,vector<int>(n2))
@@ -62,7 +67,10 @@
 "
 "#define bgen(X)                 begin(X), end(X)
 "#define coutd(X)                cout << X << endl
+"#define dcoutd(X)               if(DEBUGGING) cout << X << endl
 "
+"
+"#define DEBUGGING 1
 "
 "using namespace std;
 "
