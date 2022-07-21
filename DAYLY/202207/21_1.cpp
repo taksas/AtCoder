@@ -78,12 +78,12 @@ int main() {
     while(1) {
         if(point <= N-2) point++;
         else break;
-        dcoutd(point);
+        //dcoutd(point);
         fir += A[point];
         las -= A[point];
         
-        long long int temp = abs(fir-las);
-        ret = min(ret,temp);
+
+        ret = min(ret,abs(fir-las));
     }
 
     coutd(ret);
