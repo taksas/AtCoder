@@ -1,7 +1,7 @@
 // ARC078 - C
 // 21%
 // 1st
-// NOT_YET
+// COPYED
 
 #include <iostream>
 #include <vector>
@@ -60,9 +60,8 @@ int main() {
     long long int N; cin >> N;
     vector<int> A(N); vrep(A) cin >> x;
     
-    sort(bgen(A));
     
-    long long int point = 0;
+
     long long int fir = A[0], las = 0;
     for(int i = 1; i < N; i++) {
         las += A[i];
@@ -75,15 +74,14 @@ int main() {
         return 0;
     }
 
-    while(1) {
-        if(point <= N-2) point++;
-        else break;
-        //dcoutd(point);
+    for(int point = 1; point < N-1; point++) {
+
         fir += A[point];
         las -= A[point];
-        
 
+        if(min(ret,abs(fir-las)) != ret) dcoutd(ret);
         ret = min(ret,abs(fir-las));
+        
     }
 
     coutd(ret);
