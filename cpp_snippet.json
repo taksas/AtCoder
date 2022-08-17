@@ -38,7 +38,7 @@
 "#include <bitset>
 "
 "
-"// -----     cpp_snippets_v7     -----
+"// -----     cpp_snippets_v7.1     -----
 "#define rep(i,n)                for (int i = 0; i < n; i++)
 "#define vrep(X)                 for (auto&& x : X)
 "
@@ -49,11 +49,11 @@
 "#define coutd(X)                cout << X << endl
 "#define chmax(X1, X2)           X1 = max(X1, X2)
 "#define chmin(X1, X2)           X1 = min(X1, X2)
-"#define nextP(X){Y}             do { Y } while (next_permutation(X.begin(), X.end()))
+"#define nextP(X)                next_permutation(X.begin(), X.end())
 "
 "
 "#define dcoutd(X)               if(DEBUGGING) cout << X << endl
-"#define ddefined{Y}             if(DEBUGGING) { Y }
+"#define ddefined(Y)             if(DEBUGGING) ( Y )
 "
 "#define INF                     1e18
 "#define ll                      long long int
