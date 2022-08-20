@@ -1,5 +1,5 @@
 // ABC223 - C
-// DIFF
+// From_ASAKATSU
 // rnd
 // COPYED_DIFF
 
