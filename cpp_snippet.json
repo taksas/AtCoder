@@ -23,7 +23,7 @@
 "// SHOULD?
 "
 "
-"// -----     cpp_snippets_v8.2     -----
+"// -----     cpp_snippets_v8.3     -----
 "#include <iostream>
 "#include <vector>
 "#include <algorithm>
@@ -39,14 +39,13 @@
 "#include <cassert>
 "#include <bitset>
 "#include <iomanip>
-"
+"#include <sstream>
 "
 "#define rep(i,n)                for (int i = 0; i < n; i++)
 "#define vrep(X)                 for (auto&& x : X)
 "
 "#define vvii(X,n1,n2)           vector<vector<int>> X(n1,vector<int>(n2))
 "
-"#define bgen(X)                 begin(X), end(X)
 "#define coutd(X)                cout << X << endl
 "#define coutds(N,X)             cout << fixed << setprecision(N) << X << endl
 "#define chmax(X1, X2)           X1 = max(X1, X2)
