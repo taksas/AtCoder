@@ -23,7 +23,7 @@
 "// SHOULD?
 "
 "
-"// -----     cpp_snippets_v8.3     -----
+"// -----     cpp_snippets_v8.4     -----
 "#include <iostream>
 "#include <vector>
 "#include <algorithm>
@@ -40,6 +40,7 @@
 "#include <bitset>
 "#include <iomanip>
 "#include <sstream>
+"#include <unordered_set>
 "
 "#define rep(i,n)                for (int i = 0; i < n; i++)
 "#define vrep(X)                 for (auto&& x : X)
