@@ -23,7 +23,7 @@
 "// SHOULD?
 "
 "
-"// -----     cpp_snippets_v8.4     -----
+"// -----     cpp_snippets_v8.4.1     -----
 "#include <iostream>
 "#include <vector>
 "#include <algorithm>
@@ -53,7 +53,7 @@
 "#define chmin(X1, X2)           X1 = min(X1, X2)
 "#define nextP(X)                next_permutation(X.begin(), X.end())
 "
-"#define INF                     1e18
+"#define INF                     8e18
 "#define ll                      long long int
 "
 "
