@@ -1,4 +1,4 @@
-// AAA000 - Q
+// nikkei2019-qual - C
 // ASAKATSU
 // rnd
 // NOT_YET
