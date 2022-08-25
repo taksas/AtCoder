@@ -1,7 +1,7 @@
 // ABC247 - D
 // From_ASAKATSU
 // rnd
-// SHOULD?
+// SAW
 
 
 // -----     cpp_snippets_v8.4.2     -----
@@ -43,7 +43,33 @@
 using namespace std;
 
 int main() {
-    
+    int Q; cin >> Q;
+    deque<pair<ll,ll>> TSU;
+    rep(i,Q) {
+        int sel; cin >> sel;
+        if(sel == 1) {
+            int x,c; cin >> x >> c;
+            TSU.push_back({x,c});
+        } else {
+            int c; cin >> c;
+            ll ans = 0;
+            
+            while(1) {
+                auto itr = TSU.front();
+                if(itr.second >= c) {
+                    ans += c*itr.first;
+                    if(itr.second != c) TSU.front() = {itr.first, itr.second - c};
+                    else TSU.pop_front();
+                    break;
+                } else {
+                    c -= itr.second;
+                    ans += itr.first*itr.second;
+                    TSU.pop_front();
+                }
+            }
+            coutd(ans);
+        }
+    }
     
     
     
