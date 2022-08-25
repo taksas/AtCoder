@@ -1,5 +1,5 @@
-// AAA000 - Q
-// DIFF
+// ABC057 - A
+// ASAKATSU
 // rnd
 // SHOULD?
 

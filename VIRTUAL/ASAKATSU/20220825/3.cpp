@@ -1,7 +1,7 @@
-// AAA000 - Q
-// DIFF
+// ABC247 - D
+// ASAKATSU
 // rnd
-// SHOULD?
+// NOT_YET
 
 
 // -----     cpp_snippets_v8.4.1     -----
