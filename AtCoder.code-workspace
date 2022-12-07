@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"limits.h": "c",
+			"stdio.h": "c",
+			"vector": "cpp",
+			"xtree": "cpp",
+			"iostream": "cpp",
+			"xstring": "cpp",
+			"ostream": "cpp",
+			"algorithm": "cpp",
+			"initializer_list": "cpp",
+			"type_traits": "cpp",
+			"xutility": "cpp",
+			"cstdlib": "cpp",
+			"utility": "cpp",
+			"map": "cpp",
+			"memory": "cpp",
+			"system_error": "cpp",
+			"xmemory": "cpp",
+			"xstddef": "cpp",
+			"set": "cpp",
+			"cmath": "cpp",
+			"functional": "cpp",
+			"queue": "cpp",
+			"cassert": "cpp",
+			"stdlib.h": "c"
+		}
+	}
+}
