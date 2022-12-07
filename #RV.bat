@@ -2,5 +2,5 @@ del /s *.obj
 del /s *.pdb
 del /s *.ilk
 del /s *.exe
-code . -n
+"C:\Users\TAKUMI\git\AtCoder\AtCoder.code-workspace"
 exit
