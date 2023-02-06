@@ -29,7 +29,8 @@
 			"functional": "cpp",
 			"queue": "cpp",
 			"cassert": "cpp",
-			"stdlib.h": "c"
+			"stdlib.h": "c",
+			"regex": "cpp"
 		}
 	}
 }
