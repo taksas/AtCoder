@@ -30,7 +30,9 @@
 			"queue": "cpp",
 			"cassert": "cpp",
 			"stdlib.h": "c",
-			"regex": "cpp"
+			"regex": "cpp",
+			"tuple": "cpp",
+			"bitset": "cpp"
 		}
 	}
 }
