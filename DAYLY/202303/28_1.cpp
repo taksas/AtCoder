@@ -1,7 +1,7 @@
 // ABC186 - D
 // 49%
 // 1st
-// SHOULD?
+// NO
 
 #include <iostream>
 #include <vector>
