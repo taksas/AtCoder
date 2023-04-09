@@ -75,7 +75,8 @@
 			"xlocnum": "cpp",
 			"xloctime": "cpp",
 			"xtr1common": "cpp",
-			"all": "cpp"
+			"all": "cpp",
+			"array": "cpp"
 		}
 	}
 }
