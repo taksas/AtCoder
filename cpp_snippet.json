@@ -23,7 +23,7 @@
 "// SHOULD?
 "
 "
-"// -----     cpp_snippets_v8.9     -----
+"// -----     cpp_snippets_v8.10     -----
 "#include <iostream>
 "#include <vector>
 "#include <algorithm>
@@ -52,6 +52,7 @@
 "#define INFI                    (INT_MAX / 2)
 "#define INFL                    (1LL << 60)
 "#define ll                      long long int
+"#define ull                     unsigned long long int
 "
 "#define rep(i,n)                for (int i = 0; i < n; i++)
 "#define vrep(X)                 for (auto&& x : X)
