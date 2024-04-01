@@ -19,11 +19,10 @@
 
 "// AAA000 - Q
 "// DIFF
-"// rnd
-"// SHOULD?
+"// NOTE
 "
 "
-"// -----     cpp_snippets_v8.12     -----
+"// -----     cpp_snippets_v8.13     -----
 "#include <iostream>
 "#include <vector>
 "#include <algorithm>
@@ -52,9 +51,6 @@
 "#define INFI                    (INT_MAX / 2)
 "#define INFL                    (1LL << 60)
 "
-"#define rep(i,st,fn)            for (int i = st; i < fn; i++)
-"#define rrep(i,st,fn)           for (int i = st; i >= fn; i--)
-"#define vrep(X)                 for (auto&& x : X)
 "#define vvii(X,n1,n2)           vector<vector<int>> X(n1,vector<int>(n2))
 "
 "using namespace std;
